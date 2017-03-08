@@ -1,0 +1,17 @@
+# config/cucumber.yml
+
+---
+default: &default
+  URI=https://www.google.com
+  BROWSER=chrome
+  SET=production
+
+
+production:
+  <<: *default
+
+staging:
+  URI=https://www.google.com.sg
+  BROWSER=chrome
+  SET=staging
+

@@ -1,0 +1,11 @@
+# config/page_object.yml
+
+SEARCH_BAR:
+  ID: 'lst-ib'
+
+RESULT_PAGE:
+  ID: 'resultStats'
+
+RESULT_QUERIES:
+  CLASS: 'rc'
+
